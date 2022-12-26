@@ -21,13 +21,13 @@ VALUES("Instructor", 90000, 1),
 
 
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES("TOM", "CLANCY", 3 NULL),
+VALUES("TOM", "CLANCY", 3, NULL),
       ("JILL", "OPPENHEIMER", 2, 1),
       ("MIKE", "PILL", 1, 1),
       ("SHANE", "GARCIA", 4, 6),
       ("TERRELL", "JOHNSON", 8, NULL),
       ("CLAIRE", "STAR", 6, NULL),
-      ("TODD", "STEWART", 9, 8 ),
+      ("TODD", "STEWART", 9, 9 ),
       ("JANICE", "THOMAS", 12, NULL),
       ("BICHRAM", "KALID", 10, NULL),
       ("SUSAN","STYLE", 5, 6),
