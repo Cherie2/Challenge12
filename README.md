@@ -23,9 +23,9 @@ In completing this project, I have learned the basic concepts of MySQL, Inquirer
 ![EmployeeTrackerDemo](assets/employeeTracker.jpg)
 
 ## Video Demonstration
-```
+
 Link to video demonstration here: [EmployeeTrackerAppDemo](https://drive.google.com/file/d/1zkzeEhxCYRrQ4fCna2anBkIrTMuVAvqe/view?usp=share_link)
-```
+
 ## Tools Utilized
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
