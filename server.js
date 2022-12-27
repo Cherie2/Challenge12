@@ -3,7 +3,7 @@ const connection = require("./config/connection");
 const { employeeAdd, getAllEmployees } = require("./db/queries");
 const database = require("./db/queries");
 require("console.table");
-//SET FOREIGN_KEY_CHECKS = 0;
+
 function initialAction() {
   inquirer
     .prompt([
@@ -265,7 +265,7 @@ const addEmployee = () => {
         .then((response) => {
           const query = `INSERT INTO EMPLOYEE (first_name, last_name, role_id, manager_id) VALUES (?)`;
           //Selection of NONE as manager will result in null value in manager column
-          let manager_id = response.manager !== 0 ? response.manager : null;
+          let manager_id = response.manager !==0? response.manager : null;
           connection.query(
             query,
             [
@@ -273,7 +273,7 @@ const addEmployee = () => {
                 response.firstName,
                 response.lastName,
                 response.role,
-                manager_id,
+                manager_id
               ],
             ],
             (err, res) => {
