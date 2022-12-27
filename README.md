@@ -16,7 +16,7 @@
 
 ## Motivation
 
-The motivation for this project is to provide users with a convenient and efficient way to store/update/add/delete products in their database. The goal is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+The motivation for this project is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL. This application will provide users with a convenient and efficient way to interact with information in the database. Some of these functions include being able to view specific departments, employees, salaries, roles and etc as well as update,add, or delete information in their database. 
 
 In completing this project, I have learned the basic concepts of MySQL, Inquirer, and Node.js. I have also learned the benefits of utilizing modular routes to maintain cleaner code.
 
